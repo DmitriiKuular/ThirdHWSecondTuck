@@ -7,7 +7,6 @@ public class Main {
         double y = 1.77;
         double bmi = service.calculate(x, y);
 
-        System.out.println("Индекс массы тела - ");
-        System.out.printf("%.2f", bmi);
+        System.out.printf("Ваш индекс массы тела - %.2f", bmi);
     }
 }
